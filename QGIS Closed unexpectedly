@@ -1,0 +1,56 @@
+Crash ID: 860ac4671a7fe68a8d188afd252d1cfc53852288
+
+
+Stack Trace
+
+
+osgeo::proj::datum::Datum::conventionalRS :
+osgeo::proj::datum::Datum::conventionalRS :
+osgeo::proj::datum::Datum::conventionalRS :
+OGRSpatialReference::~OGRSpatialReference :
+OGRSpatialReference::operator= :
+OGRGeomFieldDefn::~OGRGeomFieldDefn :
+SHPWriteObject :
+OGRFeatureDefn::~OGRFeatureDefn :
+OGRFeatureDefn::~OGRFeatureDefn :
+SHPWriteObject :
+DBFWriteTuple :
+OGREditableLayer::Translate :
+CPLStringList::FindString :
+selectWidget :
+QMetaObject::activate :
+QTimer::timerEvent :
+QObject::event :
+QApplicationPrivate::notify_helper :
+QApplication::notify :
+QgsApplication::notify :
+QCoreApplication::notifyInternal2 :
+QEventDispatcherWin32Private::sendTimerEvent :
+QEventDispatcherWin32::processEvents :
+UserCallWinProcCheckWow :
+DispatchMessageWorker :
+QEventDispatcherWin32::processEvents :
+qt_plugin_query_metadata :
+QEventLoop::exec :
+QCoreApplication::exec :
+main :
+BaseThreadInitThunk :
+RtlUserThreadStart :
+
+
+
+
+QGIS Info
+QGIS Version: 3.4.13-Madeira
+QGIS code revision: 567300ccf1
+Compiled against Qt: 5.11.2
+Running against Qt: 5.11.2
+Compiled against GDAL: 3.0.2
+Running against GDAL: 3.0.2
+
+
+
+System Info
+CPU Type: x86_64
+Kernel Type: winnt
+Kernel Version: 10.0.17763
